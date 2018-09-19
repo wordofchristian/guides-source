@@ -58,7 +58,7 @@ project happens in this folder.
 **config**: The config directory contains the `environment.js` where you can
 configure settings for your app.
 
-**node\_modules / package.json**: This directory and file are from npm.
+**node\_modules, package.json**: This directory and file are from npm.
 npm is the package manager for Node.js. Ember is built with Node and uses a
 variety of Node.js modules for operation. The `package.json` file maintains the
 list of current npm dependencies for the app.  Any Ember CLI
@@ -70,7 +70,7 @@ are installed in the node\_modules directory.
 **vendor**: This directory is where front-end dependencies (such as JavaScript
 or CSS) that are not managed by NPM go.
 
-**tests / testem.js**: Automated tests for our app go in the `tests` folder,
+**tests, testem.js**: Automated tests for our app go in the `tests` folder,
 and Ember CLI's test runner **testem** is configured in `testem.js`.
 
 **ember-cli-build.js**: This file describes how Ember CLI should build our app.
